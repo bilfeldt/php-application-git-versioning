@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Bilfeldt\Version\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class VersionCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'php-application-git-versioning';
 
     public $description = 'My command';
 

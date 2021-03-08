@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "bilfeldt/php-application-git-versioning",
+    "description": "A lightweight package for adding git-based versioning to a PHP application - compatible with Laravel and other frameworks.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "bilfeldt",
+        "php-application-git-versioning"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/bilfeldt/php-application-git-versioning",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Anders Bilfeldt",
+            "email": "abilfeldt@gmail.com",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Bilfeldt\\Version\\": "src",
+            "Bilfeldt\\Version\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Bilfeldt\\Version\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Bilfeldt\\Version\\VersionServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Version": "Bilfeldt\\Version\\VersionFacade"
             }
         }
     },

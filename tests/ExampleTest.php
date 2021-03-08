@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Bilfeldt\Version\Tests;
 
 class ExampleTest extends TestCase
 {
