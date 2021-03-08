@@ -2,9 +2,9 @@
 
 namespace Bilfeldt\Version\Tests;
 
+use Bilfeldt\Version\VersionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bilfeldt\Version\VersionServiceProvider;
 
 class TestCase extends Orchestra
 {

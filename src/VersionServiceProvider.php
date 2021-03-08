@@ -2,9 +2,9 @@
 
 namespace Bilfeldt\Version;
 
+use Bilfeldt\Version\Commands\VersionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bilfeldt\Version\Commands\VersionCommand;
 
 class VersionServiceProvider extends PackageServiceProvider
 {
